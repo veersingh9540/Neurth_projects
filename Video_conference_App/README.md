@@ -1,2 +1,2 @@
 # Videocall-app
-Videocall using WebRTC and nodes
+Videocall using WebRTC and nodeJs
