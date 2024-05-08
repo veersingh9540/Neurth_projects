@@ -1,4 +1,4 @@
-# Neurth_projects
+# Neurth_projects https://www.neurth.com/
 
 # 🚀 these 🧠ML personal projects are in the exploration of tensorflowJS libraries and utilizing the reactJS for web app development.
 
