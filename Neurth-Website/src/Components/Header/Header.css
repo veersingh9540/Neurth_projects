@@ -1,0 +1,143 @@
+.Header_container{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 300;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+    margin: auto auto;
+
+    
+    
+}
+.Header_scrollContainer{
+    background-color: lightgray;
+    transition: all 0.5s;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.Header_logoImage{
+    width:100px;
+    object-fit: contain;
+    margin: 10px 20px; 
+    margin-top: 15px;
+    padding-right: 25px;
+    border-right: 2px solid black;
+}
+.Header_links{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex: 1;
+}
+.Header_link{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding-bottom: 5px;
+    transition: all 10ms;
+}
+.Header_link:hover{
+    
+    border-bottom: 2px solid #111111;
+}
+.Header_linkContainer{
+    display: flex;
+    position: relative;
+    margin: 0 10px;
+    justify-content: space-evenly;
+
+}
+.Hover_list{
+    display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  margin-top: 30px;
+  min-width: 400px;
+  height: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+  
+  
+}
+.Hover_list a{
+    color: black;
+    font-weight: 300;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+.Hover_list a:hover{
+    background-color: lightgray;
+    
+}
+.Header_link:hover .Hover_list{
+    display: block;
+}
+
+.Contact_container{
+    display: flex;
+    width: 150px;
+    margin-right: 10px;
+    
+
+}
+.Contact_link{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color:#111111;
+    transition: all 200ms;
+    
+}
+.Contact_link:hover{
+    font-weight: 800;
+    
+}
+.Spacer{
+    flex: 1;
+}
+.Header_linkText{
+    font-size-adjust: inherit;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+.Button{
+    display: none;
+        
+}
+.App_Signup{
+    display: flex;
+    flex-direction: column;
+  }
+.App_headerImage{
+    object-fit: contain;  
+  }
+.center_content{
+    margin: 20px;
+}
+@media screen and (max-width: 1000px){
+    .Button{
+        background:transparent;
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        margin-right: 20px;
+    }
+    .Header_logoImage{
+        width: 100px;
+    }
+    .Header_container{
+        object-fit: contain;
+        width: 100%;
+ }
+    .Header_links{
+        display: none;
+        
+    }
+    
+}

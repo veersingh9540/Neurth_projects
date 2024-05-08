@@ -1,0 +1,41 @@
+.HeaderContent_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    max-height: 400px;
+    min-width: 100px;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    background-color: white;
+    z-index: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.HeaderContent_Image{
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.HeaderContent_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    text-align: center;
+}
+@media screen and (max-width: 1000px){
+  
+    .HeaderContent_container{
+        width: 90%;
+        margin: auto auto;
+    }
+}

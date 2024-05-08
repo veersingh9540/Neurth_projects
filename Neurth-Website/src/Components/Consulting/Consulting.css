@@ -1,0 +1,24 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+.Consulting_container{
+    height: 800px;
+    width: 100%;
+    margin: auto auto;
+    font-family: 'Alata', sans-serif;
+}
+.ResearchCaption_style{
+    display: 'flex';
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0,0, 0.5);
+        color: white;
+        font-size: 100px;
+        padding-left: 30%;
+        padding-top: 18%;
+}
+@media screen and (max-width: 1000px){
+    .ResearchCaption_style{
+        font-size: 30px;
+        padding-left: 30%;
+        padding-top: 65%;
+    }
+} */

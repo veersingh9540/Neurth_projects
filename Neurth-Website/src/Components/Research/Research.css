@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+.Researchs_container{
+    
+    height: 800px;
+    width: 100%;
+    margin: auto auto;
+    font-family: 'Alata', sans-serif;
+}
+
+
+.ResearchCaptions_style{
+    display: 'flex';
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0,0, 0.5);
+    color: white;
+    font-size: 100px;
+    padding-left: 20%;
+    padding-top: 15%;
+}
+.Research_subheading{
+    font-size: 20px;
+    padding-top: 6%;
+    padding-left: 20%;
+    
+}
+.Research_content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1000px){
+    .ResearchCaptions_style{
+        font-size: 30px;
+        padding-left: 20%;
+        padding-top: 65%;
+    }
+    .Research_subheading{
+        display: none;
+    }
+}
